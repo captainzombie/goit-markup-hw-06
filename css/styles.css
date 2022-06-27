@@ -487,6 +487,7 @@ color: var(--hover-color);
 /*---------footer---------*/
 
 .footer {
+	display: flex;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: #2F303A;
@@ -686,6 +687,9 @@ color: var(--hover-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	transition: transform 500ms linear;
+	padding: 40px;
+
+
 }
 
 .modal-btn-close {
@@ -703,8 +707,122 @@ color: var(--hover-color);
 	cursor: pointer;
 }
 
+
+.modal-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+
+}
+
+.modal-field {
+	margin-top: 10px;
+}
+
+.modal-lable {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.67;
+	letter-spacing: 0.01em;
+	color: #757575;
+}
+
+.modal-text-area::placeholder {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.6);
+}
+
+
+.modal-form {
+	margin-top: 12px;
+}
+
+.modal-input {
+	width: 100%;
+	height: 40px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+
+.modal-text-area {
+	resize: none;
+	width: 100%;
+	min-height: 138px;
+}
+
 .is-hidden {
 	opacity: 0;
 	visibility: hidden;
 	pointer-events: none;
 }
+
+
+.email-form-wrap {
+	margin-left: 93px;
+	height: 86px;
+	min-width: 570px;
+}
+
+.email-list-label {
+	position: relative;
+	display: flex;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.mail-list-btn {
+	width: 200px;
+	height: 50px;
+	background-color: #2196F3;
+	color: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	margin-left: 12px;
+	padding: 10px 29px;	
+
+}
+
+.email-list-icon {
+	margin-left: 10px;
+}
+
+
+.email-list-text {
+	position: absolute;
+	display: flex;
+	top: 0;
+	left: 0;
+	justify-content: start;
+
+}
+
+
+
+.email-input {
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	width: 358px;
+	background: #2F303A;
+	color: #FFFFFF;
+}
+
+

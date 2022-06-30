@@ -678,6 +678,10 @@ body {
   cursor: pointer;
 }
 
+.modal-btn-close:hover {
+  fill: var(--hover-color);
+}
+
 .modal-title {
   font-weight: 700;
   font-size: 20px;
@@ -753,7 +757,7 @@ body {
 .modal-text-area {
   resize: none;
   width: 100%;
-  min-height: 138px;
+  min-height: 120px;
   padding: 12px 16px;
 }
 
@@ -764,11 +768,13 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  align-items: center;
+  justify-content: center;
 }
 
 .check-label span {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 15px; 
   border: 2px solid rgb(33, 33, 33);
   display: flex;
   align-items: center;
@@ -836,7 +842,6 @@ body {
   border: none;
   cursor: pointer;
   margin-top: 30px;
-  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -882,6 +887,7 @@ body {
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
   font-weight: 700;
